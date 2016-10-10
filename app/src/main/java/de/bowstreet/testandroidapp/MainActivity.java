@@ -21,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 throw new RuntimeException("Test exception");
             }
         });
+
+
     }
 }
