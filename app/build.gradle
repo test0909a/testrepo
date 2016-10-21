@@ -1,15 +1,22 @@
 apply plugin: 'com.android.application'
 
-def keystoreProperties = new Properties()
-keystoreProperties.load(new FileInputStream(rootProject.file("keystore.properties")))
+File keystorePropsFile = rootProject.file("keystore.properties")
+def keystoreProperties
+if (keystorePropsFile.exists()) {
+    keystoreProperties = new Properties()
+    keystoreProperties.load(new FileInputStream(keystorePropsFile))
+}
+
 
 android {
     signingConfigs {
         internalConfig {
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-            storeFile file(keystoreProperties['storeFile'])
-            storePassword keystoreProperties['storePassword']
+            if (keystoreProperties) {
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+                storeFile  file(keystoreProperties['storeFile'])
+                storePassword keystoreProperties['storePassword']
+            }
         }
     }
     compileSdkVersion 24
@@ -33,7 +40,9 @@ android {
 
         }
         internal {
-            signingConfig signingConfigs.internalConfig
+            if (keystoreProperties) {
+                signingConfig signingConfigs.internalConfig
+            }
         }
     }
 }
