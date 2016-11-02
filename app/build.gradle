@@ -42,9 +42,7 @@ android {
 
         }
         internal {
-            if (keystoreProperties) {
-                signingConfig signingConfigs.internalConfig
-            }
+            signingConfig signingConfigs.internalConfig
         }
     }
 }
