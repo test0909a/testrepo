@@ -1,24 +1,12 @@
 apply plugin: 'com.android.application'
 
-File keystorePropsFile = rootProject.file("keystore.properties")
-def keystoreProperties
-if (keystorePropsFile.exists()) {
-    keystoreProperties = new Properties()
-    keystoreProperties.load(new FileInputStream(keystorePropsFile))
-
-    System.setProperty("KEY_ALIAS", keystoreProperties["keyAlias"])
-    System.setProperty("KEY_PASSWORD", keystoreProperties["keyPassword"])
-    System.setProperty("STORE_PASSWORD", keystoreProperties["storePassword"])
-}
-
-
 android {
     signingConfigs {
         internalConfig {
-            keyAlias System.getProperty("KEY_ALIAS")
-            keyPassword System.getProperty("KEY_PASSWORD")
+            keyAlias System.getProperty("MOBILECENTER_KEY_ALIAS")
+            keyPassword System.getProperty("MOBILECENTER_KEY_PASSWORD")
             storeFile rootProject.file("app/testapp.jks")
-            storePassword System.getProperty("STORE_PASSWORD")
+            storePassword System.getProperty("MOBILECENTER_STORE_PASSWORD")
         }
     }
     compileSdkVersion 24
