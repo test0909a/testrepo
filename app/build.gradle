@@ -25,11 +25,14 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions "release"
     productFlavors {
         live {
+            dimension "release"
 
         }
         internal {
+            dimension "release"
             signingConfig signingConfigs.internalConfig
         }
     }
