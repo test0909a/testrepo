@@ -1,3 +1,3 @@
 echo Running post clone
 export
-echo ${Secret:0:1}
+echo ${Secret:0:2}
