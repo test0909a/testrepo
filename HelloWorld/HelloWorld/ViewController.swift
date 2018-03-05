@@ -10,8 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // add comments
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoadXAMARIN_NEXT_ENABLED()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
