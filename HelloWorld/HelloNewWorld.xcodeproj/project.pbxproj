@@ -43,7 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		64935BD01F02DA2C006FEC38 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64935BD01F02DA2C006FEC38 /* HelloNewWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloNewWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64935BD31F02DA2C006FEC38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64935BD51F02DA2C006FEC38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64935BD81F02DA2C006FEC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		64935BD11F02DA2C006FEC38 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64935BD01F02DA2C006FEC38 /* HelloWorld.app */,
+				64935BD01F02DA2C006FEC38 /* HelloNewWorld.app */,
 				649AB39021BE29A00067DEA9 /* Hello World Extension.appex */,
 			);
 			name = Products;
@@ -129,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64935BCF1F02DA2C006FEC38 /* HelloWorld */ = {
+		64935BCF1F02DA2C006FEC38 /* HelloNewWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64935BE21F02DA2C006FEC38 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildConfigurationList = 64935BE21F02DA2C006FEC38 /* Build configuration list for PBXNativeTarget "HelloNewWorld" */;
 			buildPhases = (
 				64935BCC1F02DA2C006FEC38 /* Sources */,
 				64935BCD1F02DA2C006FEC38 /* Frameworks */,
@@ -143,9 +143,9 @@
 			dependencies = (
 				649AB39C21BE29A00067DEA9 /* PBXTargetDependency */,
 			);
-			name = HelloWorld;
+			name = HelloNewWorld;
 			productName = HelloWorld;
-			productReference = 64935BD01F02DA2C006FEC38 /* HelloWorld.app */;
+			productReference = 64935BD01F02DA2C006FEC38 /* HelloNewWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
 		649AB38F21BE29A00067DEA9 /* Hello World Extension */ = {
@@ -185,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 64935BCB1F02DA2C006FEC38 /* Build configuration list for PBXProject "HelloWorld" */;
+			buildConfigurationList = 64935BCB1F02DA2C006FEC38 /* Build configuration list for PBXProject "HelloNewWorld" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -198,7 +198,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64935BCF1F02DA2C006FEC38 /* HelloWorld */,
+				64935BCF1F02DA2C006FEC38 /* HelloNewWorld */,
 				649AB38F21BE29A00067DEA9 /* Hello World Extension */,
 			);
 		};
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64935BCB1F02DA2C006FEC38 /* Build configuration list for PBXProject "HelloWorld" */ = {
+		64935BCB1F02DA2C006FEC38 /* Build configuration list for PBXProject "HelloNewWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64935BE01F02DA2C006FEC38 /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64935BE21F02DA2C006FEC38 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+		64935BE21F02DA2C006FEC38 /* Build configuration list for PBXNativeTarget "HelloNewWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				64935BE31F02DA2C006FEC38 /* Debug */,
