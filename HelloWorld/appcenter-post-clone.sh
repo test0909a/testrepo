@@ -1,6 +1,6 @@
 echo Running post clone
 export
-name='user-defined.testenv'
+$name='user-defined.testenv'
 echo ${!name}
 echo ${testsecret:1:2}
 echo ${testenv}
