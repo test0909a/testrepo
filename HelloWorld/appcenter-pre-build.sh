@@ -1,9 +1,9 @@
 echo Running pre build
 export
 
-echo Sleeping
-sleep 120
-echo Slept 2 minutes
+# echo Sleeping
+# sleep 120
+# echo Slept 2 minutes
 # sleep 300
 # echo Slept 10 minutes
 # sleep 300
