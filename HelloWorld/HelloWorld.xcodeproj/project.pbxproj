@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64431A09230D1842002A0AF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64431A08230D1842002A0AF3 /* MediaPlayer.framework */; };
+		64431A0B230D18F2002A0AF3 /* jellyfish-25-mbps-hd-hevc.mkv in Resources */ = {isa = PBXBuildFile; fileRef = 64431A0A230D18F2002A0AF3 /* jellyfish-25-mbps-hd-hevc.mkv */; };
 		64935BD41F02DA2C006FEC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64935BD31F02DA2C006FEC38 /* AppDelegate.swift */; };
 		64935BD61F02DA2C006FEC38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64935BD51F02DA2C006FEC38 /* ViewController.swift */; };
 		64935BD91F02DA2C006FEC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64935BD71F02DA2C006FEC38 /* Main.storyboard */; };
@@ -43,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		64431A08230D1842002A0AF3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		64431A0A230D18F2002A0AF3 /* jellyfish-25-mbps-hd-hevc.mkv */ = {isa = PBXFileReference; lastKnownFileType = file; name = "jellyfish-25-mbps-hd-hevc.mkv"; path = "HelloWorld/Assets.xcassets/jellyfish-25-mbps-hd-hevc.mkv"; sourceTree = "<group>"; };
 		64935BD01F02DA2C006FEC38 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64935BD31F02DA2C006FEC38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64935BD51F02DA2C006FEC38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64431A09230D1842002A0AF3 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +84,7 @@
 		64935BC71F02DA2C006FEC38 = {
 			isa = PBXGroup;
 			children = (
+				64431A0A230D18F2002A0AF3 /* jellyfish-25-mbps-hd-hevc.mkv */,
 				64935BD21F02DA2C006FEC38 /* HelloWorld */,
 				649AB39421BE29A00067DEA9 /* Hello World Extension */,
 				649AB39121BE29A00067DEA9 /* Frameworks */,
@@ -111,6 +117,7 @@
 		649AB39121BE29A00067DEA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				64431A08230D1842002A0AF3 /* MediaPlayer.framework */,
 				649AB39221BE29A00067DEA9 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
@@ -210,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64431A0B230D18F2002A0AF3 /* jellyfish-25-mbps-hd-hevc.mkv in Resources */,
 				64935BDE1F02DA2C006FEC38 /* LaunchScreen.storyboard in Resources */,
 				64935BDB1F02DA2C006FEC38 /* Assets.xcassets in Resources */,
 				64935BD91F02DA2C006FEC38 /* Main.storyboard in Resources */,
